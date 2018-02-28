@@ -1,0 +1,11 @@
+   62  cat instructions
+   63  cat hint1
+   64  head -n 20 mystery/people
+   65  cat hint2
+   66  grep "CLUE" mystery/crimescene
+   67  cat hint3
+   68  head -n 40 mystery/vehicles
+   69  cat hint4
+   70  grep "Annabel" mystery/people
+   71  echo Annabel Sun
+   72  history > mon_historique.log

@@ -1,0 +1,6 @@
+DEBUT
+	Assigner 2018 à la variable "annee"
+	Demander "age" à l'utilisateur
+	Définir "resultat" égal à "annee" moins "age"
+	Retourner "resultat"
+FIN

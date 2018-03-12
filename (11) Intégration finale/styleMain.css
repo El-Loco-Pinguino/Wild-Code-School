@@ -1,0 +1,152 @@
+/* Main content */
+body {
+    font-family: "PartyBusiness";
+    font-size: 1.5em;
+}
+
+footer {
+	background-color: #ff5e03;
+	font-size: 16px;
+}
+
+h2.blackText {
+	color: black;
+}
+
+h2.whiteText {
+	color: white;
+}
+
+img {
+	margin: 20px;
+}
+
+.noDot { /* Disables all dots in lists */
+	list-style-type: none;
+}
+
+.noDot > li > a, aside > p {	
+	color: white;
+}
+
+/* Colors */
+.greyBack {
+	background-color: #f5f2eb;
+}
+
+.blackBack {
+	background-color: #282828;
+}
+
+.orangeText {
+	color: orange;
+	font-size: 20px;
+}
+
+/* Navbar */
+.navbar-text {
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+.navbar-default div {
+	background-color: #ff5e03;
+	height: 5em;
+}
+
+/* Carrousel */
+.carousel-caption p {
+	font-size: 1.5em;
+}
+
+/* Other contents */
+blackBack > div {
+	color: white;
+}
+
+.blackBack .row > div {
+	color: black;
+	font-size: 2em;
+}
+
+.boldTitle {
+	font-family: "Anic Bold";
+}
+
+/* Inputs */
+#messageForm {
+	font-family: "Anic Regular";
+}
+
+#messageForm input, #messageForm select, #messageForm textarea {
+	width: 100%;
+	font-size: 12px;
+}
+
+#messageForm textarea {
+	height: 8em;
+}
+
+#skewedButton{
+	transform: skew(-15deg, 0deg);
+	width: 75%;
+	font-size: 20px;
+	color: orange;
+}
+
+/* Character portraits */
+strong {
+	color: orange;
+	font-weight: normal;
+}
+
+figure {
+	width: 50%;
+	height: auto;
+	position: relative;
+}
+
+figcaption {
+	border-radius: 20px;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 200px;
+}
+
+figcaption p {
+	margin: 0;
+}
+
+figure img {
+	object-fit: contain;
+	width: 200px;
+	opacity: 0.6;
+}
+
+figure:hover img {
+	opacity: 1;
+}
+
+figure:hover figcaption {
+	display: none;
+}
+
+/* Custom fonts */
+@font-face {
+    font-family: "PartyBusiness";
+    src: url("fonts/partybusiness.ttf");
+}
+
+@font-face {
+	font-family: "Anic Regular";
+	src: url("fonts/anicm___.ttf");
+}
+
+@font-face {
+	font-family: "Anic Bold";
+	src: url("fonts/anicb___.ttf");
+}
